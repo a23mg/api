@@ -1,0 +1,17 @@
+{
+  "name": "dummyjson-tui",
+  "version": "1.0.0",
+  "description": "Terminal User Interface (TUI) for DummyJSON Products",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "dummy-tui": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "neo-blessed": "^0.2.0"
+  }
+}
